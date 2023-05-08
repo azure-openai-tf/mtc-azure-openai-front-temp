@@ -14,9 +14,9 @@ const router = createRouter({
                     component: () => import('@/views/Dashboard.vue')
                 },
                 {
-                    path: '/uikit/formlayout',
+                    path: '/uikit/chatgpt3-5',
                     name: 'formlayout',
-                    component: () => import('@/views/uikit/FormLayout.vue')
+                    component: () => import('@/views/uikit/ChatGPT3_5.vue')
                 },
                 {
                     path: '/uikit/input',
@@ -34,7 +34,7 @@ const router = createRouter({
                     component: () => import('@/views/uikit/InvalidState.vue')
                 },
                 {
-                    path: '/uikit/button',
+                    path: '/uikit/chatgpt3',
                     name: 'button',
                     component: () => import('@/views/uikit/Button.vue')
                 },
@@ -111,36 +111,36 @@ const router = createRouter({
                     name: 'misc',
                     component: () => import('@/views/uikit/Misc.vue')
                 },
-                {
-                    path: '/blocks',
-                    name: 'blocks',
-                    component: () => import('@/views/utilities/Blocks.vue')
-                },
-                {
-                    path: '/utilities/icons',
-                    name: 'icons',
-                    component: () => import('@/views/utilities/Icons.vue')
-                },
-                {
-                    path: '/pages/timeline',
-                    name: 'timeline',
-                    component: () => import('@/views/pages/Timeline.vue')
-                },
-                {
-                    path: '/pages/empty',
-                    name: 'empty',
-                    component: () => import('@/views/pages/Empty.vue')
-                },
-                {
-                    path: '/pages/crud',
-                    name: 'crud',
-                    component: () => import('@/views/pages/Crud.vue')
-                },
-                {
-                    path: '/documentation',
-                    name: 'documentation',
-                    component: () => import('@/views/utilities/Documentation.vue')
-                }
+                // {
+                //     path: '/blocks',
+                //     name: 'blocks',
+                //     component: () => import('@/views/utilities/Blocks.vue')
+                // },
+                // {
+                //     path: '/utilities/icons',
+                //     name: 'icons',
+                //     component: () => import('@/views/utilities/Icons.vue')
+                // },
+                // {
+                //     path: '/pages/timeline',
+                //     name: 'timeline',
+                //     component: () => import('@/views/pages/Timeline.vue')
+                // },
+                // {
+                //     path: '/pages/empty',
+                //     name: 'empty',
+                //     component: () => import('@/views/pages/Empty.vue')
+                // },
+                // {
+                //     path: '/pages/crud',
+                //     name: 'crud',
+                //     component: () => import('@/views/pages/Crud.vue')
+                // },
+                // {
+                //     path: '/documentation',
+                //     name: 'documentation',
+                //     component: () => import('@/views/utilities/Documentation.vue')
+                // }
             ]
         },
         {
