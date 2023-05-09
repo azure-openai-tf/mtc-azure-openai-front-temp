@@ -112,7 +112,7 @@ export default {
                                 <div class="p-card-title">Ordered</div>
                                 <div class="p-card-subtitle">15/10/2020 10:30</div>
                                 <div class="p-card-content">
-                                    <img src="/sakai-vue/demo/images/product/game-controller.jpg" width="200" class="shadow-2 mb-3" data-v-856f09a3="" />
+                                    <img src="/public/demo/images/product/game-controller.jpg" width="200" class="shadow-2 mb-3" data-v-856f09a3="" />
                                     <p data-v-856f09a3="">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
                                         cupiditate neque quas!
